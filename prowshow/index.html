@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aloha '23</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="flex1">
+    <div class="con1">
+      <div class="nav flex2">
+        <div class="text">Menu</div>
+        <img src="../images/menu.png" alt="" class="menu" onclick="openSidePopup()" />
+      </div>
+    </div>
+    <div class="popup" id="mySidePopup">
+      <div class="fl">
+        <div class="lpop">Menu</div>
+        <img src="../images/menu-burger (2).png" alt="menu" onclick="closePopup()" />
+      </div>
+      <div class="menu1">
+        <div class="poq">
+          <div class="menu11">
+            <div class="o1">01</div>
+            <div class="text"><a href="index.html" style="color:#6f6f6f;">About</a></div>
+          </div>
+          <div class="menu12">
+            <div class="text"><a href="" style="color:#6f6f6f;">Contact</a></div>
+            <div class="o1">02</div>
+          </div>
+          <div class="menu13">
+            <div class="o1">03</div>
+            <div class="text"><a href="https://www.instagram.com/srmuapstudentcouncil/?hl=en"
+                style="color:#6f6f6f;">Instagram</a></div>
+          </div>
+          <!-- <div class="menu14">
+            <div class="text">Instagram</div>
+            <div class="o1">03</div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="lpplp">
+      <div class="a1">A</div>
+      <div class="a1">L</div>
+      <div class="a1">O</div>
+      <div class="a1">H</div>
+      <div class="a1">A</div>
+    </div>
+    <div class="lp">sajksfdffdfdssdkjj</div>
+  </div>
+  <div class="flex3">
+    <img src="../images/netflix.png" alt="" />
+    <div class="b1">
+      <div class="b11">
+        <div class="t1">S1</div>
+        <div class="arrow">&#8599;</div>
+      </div>
+      <div class="t2">DJ Pozitiva</div>
+      <div class="circle" style="background-image: url('../images/05.jpg');
+  background-size: cover;background-position: top ;background-repeat: no-repeat; "></div>
+      <div class="buff"></div>
+      <div class="t3"><a href="https://www.instagram.com/pozitivamusic/">PLAY</a></div>
+    </div>
+    <div class="b2">
+      <div class="b11">
+        <div class="t1">S2</div>
+        <div class="klp">
+          <div class="arrow">&#8599;</div>
+        </div>
+      </div>
+      <div class="t2">Project 91</div>
+      <div class="circle" style="background-image: url('../images/03.jpg');
+  background-size: cover;background-position: top ;background-repeat: no-repeat; "></div>
+      <div class="buff"></div>
+      <div class="t3"><a href="https://www.instagram.com/project91music/">PLAY</a></div>
+    </div>
+    <div class="b3">
+      <div class="b11">
+        <div class="t1">S3</div>
+        <div class="arrow">&#8599;</div>
+      </div>
+      <div class="t2">DJ Prithvi Sai</div>
+      <div class="circle" style="background-image: url('../images/04.jpg');
+  background-size: cover;background-position: center ;background-repeat: no-repeat; "></div>
+      <div class="buff"></div>
+      <div class="kl">
+        <div class="t3"><a href="https://www.instagram.com/djprithvisai/">PLAY</a></div>
+      </div>
+    </div>
+    <div class="tn">2023</div>
+  </div>
+  <div class="flex7">
+    <div class="rt">
+      <div class="r1">About</div>
+      <div class="r1">People</div>
+      <div class="r1">Contact</div>
+    </div>
+    <div class="rt1">
+      <div class="cp">&#169;</div>
+      Aloha
+    </div>
+  </div>
+  <script>
+    var popup = document.querySelector(".popup");
+    var menuButton = document.querySelector(".con1");
+
+    menuButton.addEventListener("click", function () {
+      // Toggle the "show" class to reveal or hide the popup
+      popup.classList.toggle("show");
+      // Toggle the "open" class on the .fl element to slide in/out
+      document.querySelector(".fl").classList.toggle("open");
+    });
+    function closePopup() {
+      popup.classList.remove("show"); // Hide the popup
+      document.querySelector(".fl").classList.remove("open"); // Slide out
+    }
+  </script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,426 @@
+:root {
+  --colors-primary: #fff;
+  --colors-background: #050505;
+  --fontSizes-1: 13px;
+  --fontSizes-2: 15px;
+  --fontSizes-3: 17px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+a {
+  color: #6f6f6f;
+  text-decoration: none;
+  z-index: 999;
+}
+@font-face {
+  font-family: "hnow";
+  src: url("fonts/HelveticaNowDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "PP NeueBit";
+  src: url("fonts/PPNeueBit-Bold.otf");
+}
+
+@font-face {
+  font-family: "monument";
+  src: url("fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "PP";
+  src: url("fonts/PPMondwest-Regular.otf");
+}
+@font-face {
+  font-family: "zep";
+  src: url("fonts/Zephyr.otf");
+}
+@font-face {
+  font-family: "oscar";
+  src: url("fonts/FHOscarTest-Bold.otf");
+}
+.flex1 {
+  display: flex;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  justify-content: space-between;
+  color: #fff;
+}
+.a1 {
+  font-family: "monument";
+  margin-right: 5vw;
+  font-size: 0.75vw;
+  margin-right: 0.1vw;
+}
+.con1 {
+  background-color: #b50000;
+  padding: 1vw;
+  margin-left: 2vw;
+  border-radius: 3vw;
+  font-family: "oscar";
+}
+.flex2 {
+  display: flex;
+  /* background-color: red; */
+}
+.nav .text {
+  font-size: 1vw;
+  margin-right: 2vw;
+  background-color: transparent !important;
+}
+.flex2 img {
+  width: 1vw;
+  background-color: transparent !important;
+}
+.lpplp {
+  display: flex;
+}
+.lp {
+  display: hidden;
+  color: black;
+  font-size: 1vw;
+}
+.flex3 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.circle {
+  border-radius: 50%;
+  border: 2px solid #1a1a1ab6;
+  width: 35vw;
+  color: wheat;
+  height: 35vw;
+  z-index: 999;
+  background-color: #000000;
+  opacity: 30%;
+}
+.flex4 {
+  display: flex;
+  justify-content: center;
+}
+.rect {
+  /* border: 2px solid #383838; */
+  background-color: transparent;
+  /* opacity: 0.3; */
+  top: 12vw;
+  border-radius: 2vw;
+  width: 50vw;
+  position: absolute;
+  height: 25vw;
+}
+.qw {
+  display: flex;
+  height: 100%;
+  margin-top: -25vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.redb {
+  border: 1.1vw solid red;
+  width: 1.1vw;
+  height: 1.1vw;
+  background-color: white;
+  border-radius: 50%;
+}
+.rect .text {
+  position: absolute;
+  color: white;
+  margin-top: 5.5vw;
+  font-size: 1.2vw;
+  font-family: "oscar";
+}
+.rect video {
+  width: 50vw;
+  height: 25vw;
+  border-radius: 20px;
+}
+
+video {
+  border-radius: 20px;
+}
+.flex5 {
+  display: flex;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  top: 23vw;
+  justify-content: space-between;
+  width: 94vw;
+  position: absolute;
+}
+.flex5 img {
+  width: 1vw;
+  height: 1vw;
+}
+.flex5 .t1 {
+  font-family: "hnow";
+  color: white;
+}
+.q1 {
+  display: flex;
+  margin-top: 7vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  justify-content: space-between;
+  color: #fff;
+}
+.text1,
+.text3 {
+  font-family: "zep";
+  font-size: 13vw;
+}
+.text2 {
+  margin-top: 8vw;
+  font-family: "hnow";
+}
+.flex6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+  position: relative;
+  margin-left: 5vw;
+  margin-right: 15vw;
+}
+.flex6 img {
+  width: 60vw;
+}
+.flex6 .t1 {
+  margin-top: 10vw;
+}
+.flex6 .t1,
+.t3 {
+  color: white;
+  font-size: 1.2vw;
+  font-family: "hnow";
+}
+.flex6 .t2 {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  color: #6f6f6fb9;
+  font-family: "hnow";
+  width: 15vw;
+  font-size: 1.2vw;
+}
+.ntg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+  position: absolute;
+  margin-left: 10vw;
+  top: 97vw;
+  color: #fff;
+  margin-right: 15vw;
+}
+.ntg .m1 {
+  font-size: 6vw;
+  font-family: "monument";
+}
+.mtg1 {
+  display: flex;
+  justify-content: space-between;
+  /* top:60vw; */
+  color: #fff;
+  font-size: 4vw;
+  position: relative;
+  margin-top: -8vw;
+  font-family: "oscar";
+  width: 34vw;
+  margin-left: 10vw;
+}
+.balls {
+  display: flex;
+  margin-right: 5vw;
+  margin-top: -5vw;
+  float: right;
+}
+.balls img{
+  width: 7vw;
+  height: 7vw;
+  margin-right: 5vw;
+  border-radius: 50%;
+  margin-right: 0.5vw;
+}
+.balls .r1 {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 5vw;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 0.5vw;
+}
+.t3 a{
+  color: #fff;
+}
+.flex7 {
+  display: flex;
+  margin-top: 10vw;
+  justify-content: space-between;
+  color: #fff !important;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.3vw;
+  margin-bottom: 5vw;
+  font-family: "hnow";
+}
+.rt {
+  display: flex;
+}
+.rt .r1 {
+  margin-right: 2vw;
+}
+.rt .r1 a{
+  color: #fff;
+}
+.cp {
+  color: #b50000;
+}
+.rt1 {
+  display: flex;
+}
+.lpop {
+  font-family: "oscar";
+  font-size: 1.2vw;
+}
+.o1 {
+  font-size: 0.5vw;
+  font-family: "oscar";
+}
+.menu1 .text {
+  color: #6f6f6f;
+  font-family: "oscar";
+  font-size: 1.5vw;
+}
+.menu11,
+.menu12,
+.menu13,
+.menu14 {
+  display: flex;
+  z-index: 999;
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+.fl {
+  display: flex;
+  margin-bottom: 3vw;
+  justify-content: space-between;
+}
+.fl img {
+  width: 1vw;
+}
+/* Add your CSS transitions to the navbar popup */
+.popup {
+  position: absolute;
+  width: 20vw;
+  background-color: #121212;
+  padding: 2vw;
+  z-index: 999;
+  border-radius: 20px;
+  transition: width 0.3s, opacity 0.3s; /* Add transition properties for width and opacity */
+  /* Initially, set the opacity to 0 to hide the popup */
+  visibility: hidden; /* Initially, set visibility to hidden */
+}
+.popup:hover {
+  cursor: pointer;
+}
+/* Add hover effect to the "Menu" button to make it interactive */
+.nav .text:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Add transitions for the text and opacity when the popup is visible */
+.popup.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lpop {
+  font-family: "oscar";
+  font-size: 1.2vw;
+}
+
+.o1 {
+  font-size: 0.5vw;
+  font-family: "hnow";
+  margin-top: 0.6vw;
+}
+
+.menu1 .text {
+  color: #6f6f6f;
+  font-family: "oscar";
+  font-size: 1.5vw;
+}
+
+.menu11,
+.menu12,
+.menu13,
+.menu14 {
+  display: flex;
+  z-index: 999;
+}
+
+.menu12 {
+  margin-left: 0.3vw;
+}
+.menu11 .text {
+  margin-left: 0.3vw;
+  z-index: 999;
+}
+.menu12 .text {
+  margin-right: 0.3vw;
+  z-index: 999;
+}
+.menu13 {
+  margin-left: -0.7vw;
+}
+.menu13 .text {
+  margin-left: 0.3vw;
+  z-index: 999;
+}
+.menu14 {
+  margin-left: -0.7vw;
+}
+.menu14 .text {
+  margin-right: 0.3vw;
+  z-index: 999;
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+.fl {
+  display: flex;
+  margin-bottom: 3vw;
+  justify-content: space-between;
+  transition: transform 0.3s; /* Add a transition for the transform property */
+}
+
+.fl img {
+  width: 1vw;
+}
+
+/* Add a CSS class to transition the transform property */
+.fl.open {
+  transform: translateX(0); /* Slide in from the right */
+}
+
+@media screen and (max-width: 768px) {
+  .rect {
+    width: 80vw;
+  }
+  .rect video {
+    width: 80vw;
+  }
+}

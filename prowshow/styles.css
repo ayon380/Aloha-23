@@ -1,0 +1,361 @@
+:root {
+  --colors-primary: #fff;
+  --colors-background: #050505;
+  --fontSizes-1: 13px;
+  --fontSizes-2: 15px;
+  --fontSizes-3: 17px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+@font-face {
+  font-family: "hnow";
+  src: url("../fonts/HelveticaNowDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "PP NeueBit";
+  src: url("../fonts/PPNeueBit-Bold.otf");
+}
+
+@font-face {
+  font-family: "monument";
+  src: url("../fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "PP";
+  src: url("../fonts/PPMondwest-Regular.otf");
+}
+@font-face {
+  font-family: "zep";
+  src: url("../fonts/Zephyr.otf");
+}
+@font-face {
+  font-family: "oscar";
+  src: url("../fonts/FHOscarTest-Bold.otf");
+}
+.flex1 {
+  display: flex;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  justify-content: space-between;
+  color: #fff;
+}
+.a1 {
+  font-family: "monument";
+  margin-right: 5vw;
+  font-size: 0.75vw;
+  margin-right: 0.1vw;
+}
+.con1 {
+  background-color: #b50000;
+  padding: 1vw;
+  margin-left: 2vw;
+  border-radius: 3vw;
+  font-family: "oscar";
+}
+.flex2 {
+  display: flex;
+  /* background-color: red; */
+}
+.nav .text {
+  font-size: 1vw;
+  margin-right: 2vw;
+  background-color: transparent !important;
+}
+.flex2 img {
+  width: 1vw;
+  background-color: transparent !important;
+}
+.lpplp {
+  display: flex;
+}
+.lp {
+  display: hidden;
+  color: black;
+  font-size: 1vw;
+}
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex3 img {
+  width: 1vw;
+  margin-left: 2vw;
+  margin-top: 17vw;
+  height: 1vw;
+}
+.b1,
+.b3 {
+  background-color: #161616;
+  padding: 1vw;
+  margin-left: 2vw;
+  width: 15vw;
+  height: 30vw;
+  margin-top: 2.5vw;
+  border-radius: 1.5vw;
+  font-family: "oscar";
+  color: white;
+  font-size: 1vw;
+}
+.b2 .circle {
+  height: 20vw;
+  width: 20vw;
+}
+.circle {
+  margin-top: 4vw;
+  background-color: #131212;
+  margin-left: -0.2vw;
+  border: 2px solid rgba(63, 63, 63, 0.233);
+  border-radius: 50%;
+  height: 15vw;
+  width: 15vw;
+}
+.buff {
+  height: 4vw;
+}
+.t3 {
+  text-align: center;
+  border: 2px solid rgba(128, 128, 128, 0.719);
+  border-radius: 1vw;
+  width: 5vw;
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  margin: auto;
+}
+.klp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  background-color: #b50000;
+  padding-right: 0.1vw;
+  padding-left: 0.4vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.2vw;
+  border-radius: 50%;
+  height: 1vw;
+  width: 1vw;
+}
+.t1 {
+  color: white;
+  font-family: "oscar";
+  font-size: 1.5vw;
+}
+.t2 {
+  color: grey;
+  font-family: "hnow";
+}
+.b2 {
+  background-color: #161616;
+  padding: 1vw;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 35vw;
+  border-radius: 1.5vw;
+  font-family: "oscar";
+  color: white;
+  font-size: 1vw;
+}
+.b11 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex3 .tn {
+  margin-right: 2vw;
+  margin-top: 17vw;
+  font-family: "hnow";
+  color: white;
+}
+.flex7 {
+  display: flex;
+  margin-top: 10vw;
+  justify-content: space-between;
+  color: #fff;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.3vw;
+  margin-bottom: 5vw;
+  font-family: "hnow";
+}
+.rt {
+  display: flex;
+}
+.rt .r1 {
+  margin-right: 2vw;
+}
+.cp {
+  color: #b50000;
+}
+.rt1 {
+  display: flex;
+}
+/* Existing CSS styles */
+
+/* Add media query for screens with a maximum width of 768px (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .flex3 {
+    flex-direction: column; /* Change the direction to stack cards in one column */
+    align-items: center; /* Center-align the cards */
+  }
+
+  .b1,
+  .b2,
+  .b3 {
+    width: 70vw; /* Adjust the width to make them full width on small screens */
+    margin-left: 0; /* Remove the left margin to center the cards */
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+    height: 80vw;
+    /* margin: 0 auto; */
+  }
+  .b1 .circle,
+  .b3 .circle {
+    margin: 0 auto;
+    height: 60vw;
+    width: 60vw;
+  }
+  .b2 .circle {
+    height: 60vw; /* Adjust the size of the circle */
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  /* Other mobile-specific styles can be added here as needed */
+}
+.lpop {
+  font-family: "oscar";
+  font-size: 1.2vw;
+}
+.o1 {
+  font-size: 0.5vw;
+  font-family: "oscar";
+}
+.menu1 .text {
+  color: #6f6f6f;
+  font-family: "oscar";
+  font-size: 1.5vw;
+}
+.menu11,
+.menu12,
+.menu13,
+.menu14 {
+  display: flex;
+  z-index: 999;
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+.fl {
+  display: flex;
+  margin-bottom: 3vw;
+  justify-content: space-between;
+}
+.fl img {
+  width: 1vw;
+}
+/* Add your CSS transitions to the navbar popup */
+.popup {
+  position: absolute;
+  width: 20vw;
+  background-color: #121212;
+  padding: 2vw;
+  z-index: 999;
+  transition: width 0.3s, opacity 0.3s; /* Add transition properties for width and opacity */ /* Initially, set the opacity to 0 to hide the popup */
+  visibility: hidden; /* Initially, set visibility to hidden */
+}
+
+/* Add hover effect to the "Menu" button to make it interactive */
+.nav .text:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Add transitions for the text and opacity when the popup is visible */
+.popup.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lpop {
+  font-family: "oscar";
+  font-size: 1.2vw;
+}
+
+.o1 {
+  font-size: 0.5vw;
+  font-family: "hnow";
+  margin-top: 0.6vw;
+}
+
+.menu1 .text {
+  color: #6f6f6f;
+  font-family: "oscar";
+  font-size: 1.5vw;
+}
+
+.menu11,
+.menu12,
+.menu13,
+.menu14 {
+  display: flex;
+  z-index: 999;
+}
+
+.menu12 {
+  margin-left: 0.3vw;
+}
+.menu11 .text {
+  margin-left: 0.3vw;
+  z-index: 999;
+}
+.menu12 .text {
+  margin-right: 0.3vw;
+  z-index: 999;
+}
+.menu13 {
+  margin-left: -0.7vw;
+  z-index: 999;
+}
+.menu13 .text {
+  margin-left: 0.3vw;
+}
+.menu14 {
+  margin-left: -0.7vw;
+}
+.menu14 .text {
+  margin-right: 0.3vw;
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+.fl {
+  display: flex;
+  margin-bottom: 3vw;
+  justify-content: space-between;
+  transition: transform 0.3s; /* Add a transition for the transform property */
+}
+
+.fl img {
+  width: 1vw;
+}
+
+/* Add a CSS class to transition the transform property */
+.fl.open {
+  transform: translateX(0); /* Slide in from the right */
+}

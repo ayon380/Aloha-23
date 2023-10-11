@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aloha '23</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="flex1">
+      <div class="con1">
+        <div class="nav flex2">
+          <div class="text">Menu</div>
+          <img
+            src="images/menu.png"
+            alt=""
+            class="menu"
+            onclick="openSidePopup()"
+          />
+        </div>
+      </div>
+      <div class="popup" id="mySidePopup">
+        <div class="fl">
+          <div class="lpop">Menu</div>
+          <img
+            src="images/menu-burger (2).png"
+            alt="menu"
+            onclick="closePopup()"
+          />
+        </div>
+        <div class="menu1">
+          <div class="poq">
+            <div class="menu11">
+              <div class="o1">00</div>
+              <div class="text">
+                <a href="#flex6">About</a>
+              </div>
+            </div>
+            <div class="menu12">
+              <div class="text">
+                <a href="mailto:sc@srmap.edu.in">Contact</a>
+              </div>
+              <div class="o1">01</div>
+            </div>
+            <div class="menu13">
+              <div class="o1">02</div>
+              <div class="text">
+                <a href="https://www.instagram.com/srmuapstudentcouncil/?hl=en"
+                  >Instagram</a
+                >
+              </div>
+            </div>
+            <!-- <div class="menu14">
+            <div class="text"><a href="https://www.instagram.com/srmuapstudentcouncil/">Instagram</a></div>
+            <div class="o1">03</div>
+          </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="lpplp">
+        <div class="a1">A</div>
+        <div class="a1">L</div>
+        <div class="a1">O</div>
+        <div class="a1">H</div>
+        <div class="a1">A</div>
+        <!-- <div class="a1">2</div>
+      <div class="a1">3</div> -->
+      </div>
+      <div class="lp">sajksfdffdfdssdkjj</div>
+    </div>
+    <div class="flex3">
+      <div class="circle"></div>
+    </div>
+    <div class="flex4">
+      <div class="rect">
+        <div class="vid">
+          <video autoplay loop muted playsinline>
+            <source src="vids/pro.mp4" type="video/mp4" />
+            Your browser does not support the video.
+          </video>
+        </div>
+        <div class="qw">
+          <div class="redb"></div>
+          <div class="text">Show Reel</div>
+        </div>
+      </div>
+    </div>
+    <section id="s1">
+      <div class="q1">
+        <div class="text1">Discover</div>
+        <div class="text2">13-14</div>
+        <div class="text3">Aloha</div>
+      </div>
+      <div class="flex5">
+        <img src="images/netflix.png" alt="" class="img1" />
+        <div class="t1">2023</div>
+      </div>
+      <div class="flex6">
+        <img src="images/r9.png" alt="" class="img2" />
+        <div class="tq">
+          <div class="t1">13 - 14 OCT</div>
+          <div class="t2">
+            Prepare for a Netflix edition event like no other! Dive into a world
+            of entertainment, excitement, and endless possibilities. At this
+            year's Fresher's Event on October 13-14, we're bringing the
+            streaming sensation to campus with a Netflix twist that you won't
+            want to miss.
+          </div>
+          <div class="t3"><a href="https://www.instagram.com/srmuapstudentcouncil/?hl=en">INSTAGRAM &rarr;</a></div>
+        </div>
+      </div>
+      <div class="ntg">
+        <div class="m1">NETFLIX</div>
+      </div>
+      <div class="mtg1">
+        <div class="m1">13 - 14</div>
+        <div class="m2">23</div>
+      </div>
+      <div class="balls">
+        <img src="images/01.jpg" alt=""/>
+        <img src="images/02.jpg" alt=""/>
+        <img src="images/03.jpg" alt=""/>
+      </div>
+    </section>
+    <div class="flex7">
+      <div class="rt">
+        <div class="r1"><a href="#s1">About</a></div>
+        <div class="r1">People</div>
+        <div class="r1"><a href="mailto:sc@srmap.edu.in">Contact</a></div>
+      </div>
+      <div class="rt1">
+        <div class="cp">&#169;</div>
+        Aloha
+      </div>
+    </div>
+    <script>
+      var popup = document.querySelector(".popup");
+      var menuButton = document.querySelector(".con1");
+
+      menuButton.addEventListener("click", function () {
+        // Toggle the "show" class to reveal or hide the popup
+        popup.classList.toggle("show");
+        // Toggle the "open" class on the .fl element to slide in/out
+        document.querySelector(".fl").classList.toggle("open");
+      });
+      function closePopup() {
+        popup.classList.remove("show"); // Hide the popup
+        document.querySelector(".fl").classList.remove("open"); // Slide out
+      }
+    </script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
