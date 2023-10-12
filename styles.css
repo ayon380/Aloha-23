@@ -134,6 +134,7 @@ a {
   position: absolute;
   color: white;
   margin-top: 5.5vw;
+  z-index: 999;
   font-size: 1.2vw;
   font-family: "oscar";
 }
